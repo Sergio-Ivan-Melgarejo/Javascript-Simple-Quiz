@@ -1,0 +1,27 @@
+class Question {
+
+    /**
+     * 
+     * @param {string} text this is the text of the question
+     * @param {string[]} choices these are the choices of the question
+     * @param {string} answer this is the arswer of the question
+     */
+
+    constructor(text, choices, answer){
+        this.text = text;
+        this.choices = choices;
+        this.answer = answer;
+    }
+
+    /**
+     * 
+     * @param {string} choice some text to guess
+     * @returns {boolean} return true if the aswer is correct
+     */
+
+    correctAnswer(choice){
+        return this.answer === choice;
+    }
+}
+
+export { Question };
