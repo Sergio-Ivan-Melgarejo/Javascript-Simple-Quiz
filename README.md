@@ -6,4 +6,4 @@ https://sergio-ivan-melgarejo.github.io/Javascript-Simple-Quiz/index.html
 
 ## Screenshot
 
-./screenshot.png
+![](./screenshot.png)
